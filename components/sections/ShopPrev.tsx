@@ -12,7 +12,7 @@ const ShopPrev: React.FC = () => {
       whileInView="visible"
       variants={bgVariants}
       viewport={{ amount: 0.8 }}
-      transition={{ ease: "easeIn", duration: 0.5 }}
+      transition={{ ease: "easeIn", duration: 0.25 }}
       className="min-h-screen flex items-center justify-center"
     >
       <h2 className="text-3xl">Content after ShopPrev</h2>
