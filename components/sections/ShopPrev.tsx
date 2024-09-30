@@ -2,7 +2,7 @@ import { motion, Variants } from "framer-motion";
 
 const bgVariants: Variants = {
   hidden: { backgroundColor: "rgba(243,244,246,1)" },
-  visible: { backgroundColor: "rgba(55,65,81,1)" },
+  visible: { backgroundColor: "rgba(156, 163, 175,1)" },
 };
 
 const ShopPrev: React.FC = () => {
