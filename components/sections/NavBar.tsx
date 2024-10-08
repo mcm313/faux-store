@@ -37,8 +37,8 @@ const NavBar: React.FC<NavbarProps> = ({ heroRef }) => {
   };
 
   return (
-    <nav className="fixed w-full">
-      <div className="px-6 py-4 bg-gray-400 flex justify-between items-center text-white">
+    <nav className="fixed w-full z-10">
+      <div className="px-6 py-4 bg-gray-400 flex justify-between items-center text-white border border-b-white">
         <div className="flex items-center gap-2 h-5 md:h-11">
           <Menu className="h-6 w-6" />
           <motion.h1
@@ -46,7 +46,7 @@ const NavBar: React.FC<NavbarProps> = ({ heroRef }) => {
             initial="hidden"
             animate={isHeroDone ? "visible" : "exit"}
             variants={fadeVariants}
-            transition={{ ease: "easeIn", duration: 0.5 }}
+            transition={{ ease: "easeIn", duration: 0.2 }}
           >
             faux store
           </motion.h1>
